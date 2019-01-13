@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+
+
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/EditText"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/EditText"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/firstname"
+            style="@style/EditText"
+            android:hint="@string/firstname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/secondname"
+            style="@style/EditText"
+            android:hint="@string/secondname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/group"
+            style="@style/EditText"
+            android:hint="@string/group"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/faculty"
+            style="@style/EditText"
+            android:hint="@string/faculty"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/course"
+            style="@style/EditText"
+            android:hint="@string/course"
+            android:inputType="number" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isAdmin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Админ?"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registration"
+            style="@style/Button"
+            android:text="@string/register" />
+
+        <TextView
+            android:id="@+id/textView_login"
+            style="@style/TextView"
+            android:text="@string/already"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/ProgressBar"
+        android:visibility="gone" />
+
+</RelativeLayout>

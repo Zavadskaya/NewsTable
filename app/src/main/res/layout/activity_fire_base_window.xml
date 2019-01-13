@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FireBaseWindow">
+
+    <ImageView
+        style="@style/ImageView"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+
+        <EditText
+            android:id="@+id/editText_email"
+            style="@style/EditText"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            style="@style/EditText"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_login"
+            style="@style/Button"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/without_acc"
+            style="@style/TextView"
+            android:text="@string/without_acc"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/ProgressBar"
+        android:visibility="gone" />
+
+</RelativeLayout>

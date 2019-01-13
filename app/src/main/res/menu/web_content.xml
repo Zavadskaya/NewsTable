@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/main" />
+
+
+        <item
+            android:id="@+id/nav_costs_main"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/news" />
+
+        <item
+            android:checked="true"
+            android:id="@+id/nav_costs_web"
+            android:icon="@drawable/ic_monthly_report"
+            android:title="@string/web" />
+    </group>
+
+
+</menu>

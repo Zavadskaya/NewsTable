@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">News_Board</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main">Главная</string>
+    <string name="category">Темы</string>
+    <string name="add_info">Дополнительная информация</string>
+    <string name="about_app">О приложении</string>
+
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="copyright">© Zavadskaya, 2018</string>
+    <string name="create_new_category">Создать новую тему </string>
+    <string name="enter_name_category">Введите название новой темы</string>
+    <string name="enter">Добавить</string>
+    <string name="enter_cost">Введите новость</string>
+    <string name="select_category">Выбурите категорию:</string>
+    <string name="Marina_Zavadskskaya">Marina Zavadskaya 7 group 3 course</string>
+    <string name="enter_email">Введите email</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="login">Вход</string>
+    <string name="register">Зарегестрировать</string>
+    <string name="without_acc">У Вас нет аккаунта? Зарегистрируйтесь</string>
+    <string name="already">У Вас уже есть аккаунт? Выполните вход</string>
+    <string name="delete_user">Удалить пользователя</string>
+    <string name="tap_on_icon_to_choose_profile_picture">Нажмите на иконку, чтобы выбрать изображение профиля</string>
+    <string name="firstname">Введите имя</string>
+    <string name="secondname">Введите фамилию</string>
+    <string name="group">Введите группу</string>
+    <string name="course">Введите курс</string>
+    <string name="faculty">Введите факультет</string>
+    <string name="enter_add_information">Введите дополнительую информацию</string>
+    <string name="save">Сохранить</string>
+    <string name="find">Найти</string>
+    <string name="find_2">Найти...</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="graphics">Графики</string>
+    <string name="announcement">Объявления</string>
+    <string name="add">Добавить новость</string>
+    <string name="title">Название</string>
+    <string name="time">Время</string>
+    <string name="enter_news_title">News</string>
+    <string name="user">Пользователи</string>
+    <string name="news">Новости</string>
+    <string name="select_user">Текущий юзер</string>
+    <string name="web">ВебНовости</string>
+</resources>
